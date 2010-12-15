@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C63B5A4C-39D6-4537-9014-D7205E89B0E0}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Marcusoft.Demo.SpecFlow.MsTestReporting.vsmdi = Marcusoft.Demo.SpecFlow.MsTestReporting.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "batfiles", "batfiles", "{1E1F8103-68D4-44B7-B38D-9A3568091591}"
+	ProjectSection(SolutionItems) = preProject
+		CreateSpecFlowReportFromTrx.bat = CreateSpecFlowReportFromTrx.bat
+		GenerateMsTest.bat = GenerateMsTest.bat
+		RunMsTests.bat = RunMsTests.bat
+		RunSpecsAndProduceReport.bat = RunSpecsAndProduceReport.bat
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs", "Specs\Specs.csproj", "{BEA612B9-242A-4C76-860C-D1A56C7FD60D}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Marcusoft.Demo.SpecFlow.MsTestReporting.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEA612B9-242A-4C76-860C-D1A56C7FD60D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA612B9-242A-4C76-860C-D1A56C7FD60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA612B9-242A-4C76-860C-D1A56C7FD60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA612B9-242A-4C76-860C-D1A56C7FD60D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1E1F8103-68D4-44B7-B38D-9A3568091591} = {C63B5A4C-39D6-4537-9014-D7205E89B0E0}
+	EndGlobalSection
+EndGlobal
