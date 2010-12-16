@@ -14,6 +14,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "batfiles", "batfiles", "{1E
 		GenerateMsTest.bat = GenerateMsTest.bat
 		RunMsTests.bat = RunMsTests.bat
 		RunSpecsAndProduceReport.bat = RunSpecsAndProduceReport.bat
+		StepDefinitionReport.bat = StepDefinitionReport.bat
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs", "Specs\Specs.csproj", "{BEA612B9-242A-4C76-860C-D1A56C7FD60D}"

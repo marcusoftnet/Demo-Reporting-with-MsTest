@@ -14,6 +14,9 @@ namespace Specs
             _sum += number;
         }
 
+        [Given(@"Step that isn't called at all")]
+        public void StepDefinitionThatIsntCalled(){}
+
         [When(@"I press add")]
         public void WhenIPressAdd()
         {
@@ -25,6 +28,8 @@ namespace Specs
         {
             _sum.Should().Equal(result);
         }
+
+
 
     }
 }
